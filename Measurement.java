@@ -1,0 +1,23 @@
+package junit;
+
+public class Measurement
+{
+private int value;
+public Measurement(int m)
+{
+	value=m;
+}
+public int getValue()
+{
+	return value;
+}
+public void add(Measurement m)
+{
+	value=value+m.getValue();
+}
+
+public void substract(Measurement m)
+{
+	value=value-m.getValue();
+}
+}
